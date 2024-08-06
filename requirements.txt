@@ -1,0 +1,11 @@
+modelscope
+addict
+easydict
+opencv-python
+sortedcontainers
+simplejson
+oss2
+pillow
+flask
+flask_cors
+gunicorn

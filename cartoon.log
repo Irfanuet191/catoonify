@@ -1,0 +1,320 @@
+2024-08-05 03:31:01,038 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4949
+ * Running on http://172.24.111.242:4949
+2024-08-05 03:31:01,038 INFO [33mPress CTRL+C to quit[0m
+2024-08-05 03:31:01,039 INFO  * Restarting with stat
+2024-08-05 03:31:03,005 WARNING  * Debugger is active!
+2024-08-05 03:31:03,101 INFO  * Debugger PIN: 104-352-935
+2024-08-05 03:31:14,487 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 03:31:17,593 INFO Models loaded successfully
+2024-08-05 03:31:17,697 INFO 127.0.0.1 - - [05/Aug/2024 03:31:17] "GET / HTTP/1.1" 200 -
+2024-08-05 03:31:17,820 INFO 127.0.0.1 - - [05/Aug/2024 03:31:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-08-05 03:33:40,375 INFO 127.0.0.1 - - [05/Aug/2024 03:33:40] "GET / HTTP/1.1" 200 -
+2024-08-05 03:38:21,270 INFO  * Detected change in '/home/irfan/catoonify/main.py', reloading
+2024-08-05 03:38:21,961 INFO  * Restarting with stat
+2024-08-05 03:38:23,848 WARNING  * Debugger is active!
+2024-08-05 03:38:23,861 INFO  * Debugger PIN: 104-352-935
+2024-08-05 03:38:26,901 INFO  * Detected change in '/home/irfan/catoonify/main.py', reloading
+2024-08-05 03:38:27,442 INFO  * Restarting with stat
+2024-08-05 03:38:29,394 WARNING  * Debugger is active!
+2024-08-05 03:38:29,405 INFO  * Debugger PIN: 104-352-935
+2024-08-05 03:40:01,000 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 03:40:03,479 INFO Models loaded successfully
+2024-08-05 03:40:03,480 INFO 127.0.0.1 - - [05/Aug/2024 03:40:03] "[33mPOST /processRemoveObject HTTP/1.1[0m" 404 -
+2024-08-05 03:42:47,239 INFO (200, 150)
+2024-08-05 03:42:47,239 ERROR Error in faceenhance: {E}
+2024-08-05 03:42:47,239 INFO 127.0.0.1 - - [05/Aug/2024 03:42:47] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 03:42:49,169 INFO (200, 150)
+2024-08-05 03:42:49,170 ERROR Error in faceenhance: {E}
+2024-08-05 03:42:49,170 INFO 127.0.0.1 - - [05/Aug/2024 03:42:49] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 03:44:17,396 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 03:44:18,022 INFO  * Restarting with stat
+2024-08-05 03:44:19,739 WARNING  * Debugger is active!
+2024-08-05 03:44:19,750 INFO  * Debugger PIN: 104-352-935
+2024-08-05 03:44:56,963 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 03:44:57,316 INFO  * Restarting with stat
+2024-08-05 03:44:59,681 WARNING  * Debugger is active!
+2024-08-05 03:44:59,696 INFO  * Debugger PIN: 104-352-935
+2024-08-05 03:45:02,814 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 03:45:05,458 INFO Models loaded successfully
+2024-08-05 03:45:05,472 INFO (200, 150)
+2024-08-05 03:45:05,472 ERROR Error in faceenhance: {E}
+2024-08-05 03:45:05,473 INFO 127.0.0.1 - - [05/Aug/2024 03:45:05] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 03:46:18,301 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 03:46:19,002 INFO  * Restarting with stat
+2024-08-05 03:46:21,122 WARNING  * Debugger is active!
+2024-08-05 03:46:21,146 INFO  * Debugger PIN: 104-352-935
+2024-08-05 03:46:26,274 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 03:46:28,509 INFO Models loaded successfully
+2024-08-05 03:46:28,531 INFO (200, 150)
+2024-08-05 03:46:28,532 ERROR Error in faceenhance: {E}
+2024-08-05 03:46:28,533 INFO 127.0.0.1 - - [05/Aug/2024 03:46:28] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 03:47:17,573 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 03:47:18,214 INFO  * Restarting with stat
+2024-08-05 03:47:20,012 WARNING  * Debugger is active!
+2024-08-05 03:47:20,029 INFO  * Debugger PIN: 104-352-935
+2024-08-05 03:47:27,536 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 03:47:30,164 INFO Models loaded successfully
+2024-08-05 03:47:30,182 INFO (200, 150)
+2024-08-05 03:47:30,183 ERROR Error in faceenhance: {E}
+2024-08-05 03:47:30,184 INFO 127.0.0.1 - - [05/Aug/2024 03:47:30] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 03:48:02,359 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 03:48:03,026 INFO  * Restarting with stat
+2024-08-05 03:48:05,395 WARNING  * Debugger is active!
+2024-08-05 03:48:05,409 INFO  * Debugger PIN: 104-352-935
+2024-08-05 03:48:09,072 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 03:48:11,441 INFO Models loaded successfully
+2024-08-05 03:48:11,452 INFO (200, 150)
+2024-08-05 03:48:11,452 ERROR Error in faceenhance: {E}
+2024-08-05 03:48:11,453 INFO 127.0.0.1 - - [05/Aug/2024 03:48:11] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:11:51,492 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 04:11:52,404 INFO  * Restarting with stat
+2024-08-05 04:11:54,950 WARNING  * Debugger is active!
+2024-08-05 04:11:54,978 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:11:57,005 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 04:11:59,254 INFO Models loaded successfully
+2024-08-05 04:11:59,263 INFO (200, 150)
+2024-08-05 04:11:59,263 ERROR Error in faceenhance: {E}
+2024-08-05 04:11:59,264 INFO 127.0.0.1 - - [05/Aug/2024 04:11:59] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:12:54,389 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 04:12:55,132 INFO  * Restarting with stat
+2024-08-05 04:12:57,602 WARNING  * Debugger is active!
+2024-08-05 04:12:57,630 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:13:00,355 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 04:13:02,406 INFO Models loaded successfully
+2024-08-05 04:13:02,415 INFO (200, 150)
+2024-08-05 04:13:02,416 ERROR Error in faceenhance: {E}
+2024-08-05 04:13:02,417 INFO 127.0.0.1 - - [05/Aug/2024 04:13:02] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:13:54,135 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 04:13:54,927 INFO  * Restarting with stat
+2024-08-05 04:13:58,066 WARNING  * Debugger is active!
+2024-08-05 04:13:58,086 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:14:04,152 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 04:14:06,319 INFO Models loaded successfully
+2024-08-05 04:14:06,331 INFO (200, 150)
+2024-08-05 04:14:06,331 INFO cartoonify: (200, 150)
+2024-08-05 04:14:06,332 ERROR Error in faceenhance: {E}
+2024-08-05 04:14:06,333 INFO 127.0.0.1 - - [05/Aug/2024 04:14:06] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:14:53,505 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 04:14:54,397 INFO  * Restarting with stat
+2024-08-05 04:14:56,718 WARNING  * Debugger is active!
+2024-08-05 04:14:56,745 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:15:00,929 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 04:15:03,058 INFO Models loaded successfully
+2024-08-05 04:15:03,066 INFO (200, 150)
+2024-08-05 04:15:03,066 INFO cartoonify: (200, 150)
+2024-08-05 04:15:03,066 ERROR Error in faceenhance: {E}
+2024-08-05 04:15:03,067 INFO 127.0.0.1 - - [05/Aug/2024 04:15:03] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:15:53,222 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 04:15:54,084 INFO  * Restarting with stat
+2024-08-05 04:15:56,563 WARNING  * Debugger is active!
+2024-08-05 04:15:56,584 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:15:58,421 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 04:16:00,646 INFO Models loaded successfully
+2024-08-05 04:16:00,655 INFO (200, 150)
+2024-08-05 04:16:00,655 INFO cartoonify working: (200, 150)
+2024-08-05 04:16:00,655 ERROR Error in faceenhance: {E}
+2024-08-05 04:16:00,656 INFO 127.0.0.1 - - [05/Aug/2024 04:16:00] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:17:44,211 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 04:17:45,188 INFO  * Restarting with stat
+2024-08-05 04:17:47,579 WARNING  * Debugger is active!
+2024-08-05 04:17:47,595 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:17:50,467 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 04:17:52,588 INFO Models loaded successfully
+2024-08-05 04:17:52,601 INFO (200, 150)
+2024-08-05 04:17:52,601 INFO cartoonify working: (200, 150)
+2024-08-05 04:17:52,601 ERROR Error in faceenhance: {E}
+2024-08-05 04:17:52,602 INFO 127.0.0.1 - - [05/Aug/2024 04:17:52] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:19:10,121 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 04:19:10,920 INFO  * Restarting with stat
+2024-08-05 04:19:13,202 WARNING  * Debugger is active!
+2024-08-05 04:19:13,220 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:19:16,135 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 04:19:18,865 INFO Models loaded successfully
+2024-08-05 04:19:18,880 INFO (200, 150)
+2024-08-05 04:19:18,880 INFO cartoonify working: (200, 150)
+2024-08-05 04:19:18,880 ERROR Error in faceenhance: {E}
+2024-08-05 04:19:18,881 INFO 127.0.0.1 - - [05/Aug/2024 04:19:18] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:24:17,944 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4949
+ * Running on http://172.24.111.242:4949
+2024-08-05 04:24:17,945 INFO [33mPress CTRL+C to quit[0m
+2024-08-05 04:24:17,945 INFO  * Restarting with stat
+2024-08-05 04:24:20,363 WARNING  * Debugger is active!
+2024-08-05 04:24:20,387 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:24:23,409 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 04:24:26,152 INFO Models loaded successfully
+2024-08-05 04:24:26,163 INFO (200, 150)
+2024-08-05 04:24:26,163 INFO cartoonify working: (200, 150)
+2024-08-05 04:24:26,163 ERROR Error in faceenhance: {E}
+2024-08-05 04:24:26,164 INFO 127.0.0.1 - - [05/Aug/2024 04:24:26] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:25:10,600 INFO (200, 150)
+2024-08-05 04:25:10,600 INFO cartoonify working: (200, 150)
+2024-08-05 04:25:10,600 ERROR Error in faceenhance: {E}
+2024-08-05 04:25:10,601 INFO 127.0.0.1 - - [05/Aug/2024 04:25:10] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:25:53,271 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 04:25:54,015 INFO  * Restarting with stat
+2024-08-05 04:25:56,183 WARNING  * Debugger is active!
+2024-08-05 04:25:56,198 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:27:30,130 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 04:27:32,589 INFO Models loaded successfully
+2024-08-05 04:27:32,600 INFO (200, 150)
+2024-08-05 04:27:32,601 INFO cartoonify working: (200, 150)
+2024-08-05 04:27:32,601 INFO imageResize working: (200, 150)
+2024-08-05 04:27:32,601 INFO imageResize initial: (200, 150)
+2024-08-05 04:27:32,613 INFO imageResize: (150, 200, 3)
+2024-08-05 04:27:32,614 INFO cartoonify: (150, 200, 3)
+2024-08-05 04:27:37,690 INFO cartoonify: (150, 200, 3)
+2024-08-05 04:27:37,690 ERROR Error in faceenhance: {E}
+2024-08-05 04:27:37,691 INFO 127.0.0.1 - - [05/Aug/2024 04:27:37] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:32:15,599 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 04:32:17,101 INFO  * Restarting with stat
+2024-08-05 04:32:19,783 WARNING  * Debugger is active!
+2024-08-05 04:32:19,806 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:32:22,336 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 04:32:25,333 INFO Models loaded successfully
+2024-08-05 04:32:25,351 INFO (200, 150)
+2024-08-05 04:32:25,351 INFO cartoonify working: (200, 150)
+2024-08-05 04:32:25,351 INFO imageResize working: (200, 150)
+2024-08-05 04:32:25,352 INFO imageResize initial: (200, 150)
+2024-08-05 04:32:25,354 INFO imageResize: (150, 200, 3)
+2024-08-05 04:32:25,354 INFO cartoonify: (150, 200, 3)
+2024-08-05 04:32:31,974 INFO cartoonify: (150, 200, 3)
+2024-08-05 04:32:31,989 INFO Cartoonified successfully
+2024-08-05 04:32:32,155 INFO 127.0.0.1 - - [05/Aug/2024 04:32:32] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-05 04:33:54,892 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 04:33:56,307 INFO  * Restarting with stat
+2024-08-05 04:33:58,977 WARNING  * Debugger is active!
+2024-08-05 04:33:58,999 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:34:11,697 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 04:34:14,495 INFO Models loaded successfully
+2024-08-05 04:34:14,508 INFO (200, 150)
+2024-08-05 04:34:14,508 ERROR Error in faceenhance: {E}
+2024-08-05 04:34:14,509 INFO 127.0.0.1 - - [05/Aug/2024 04:34:14] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:36:09,238 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 04:36:10,282 INFO  * Restarting with stat
+2024-08-05 04:36:12,694 WARNING  * Debugger is active!
+2024-08-05 04:36:12,714 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:36:21,308 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 04:36:23,873 INFO Models loaded successfully
+2024-08-05 04:36:23,883 INFO (200, 150)
+2024-08-05 04:36:23,883 ERROR Error in faceenhance: {E}
+2024-08-05 04:36:23,884 INFO 127.0.0.1 - - [05/Aug/2024 04:36:23] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:37:19,405 INFO  * Detected change in '/home/irfan/catoonify/main.py', reloading
+2024-08-05 04:37:20,306 INFO  * Restarting with stat
+2024-08-05 04:37:22,880 WARNING  * Debugger is active!
+2024-08-05 04:37:22,903 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:37:27,244 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 04:37:30,025 INFO Models loaded successfully
+2024-08-05 04:37:30,036 INFO (200, 150)
+2024-08-05 04:37:30,036 INFO art style
+2024-08-05 04:37:30,037 ERROR Error in faceenhance: {E}
+2024-08-05 04:37:30,038 INFO 127.0.0.1 - - [05/Aug/2024 04:37:30] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:41:04,015 INFO  * Detected change in '/home/irfan/catoonify/main.py', reloading
+2024-08-05 04:41:04,859 INFO  * Restarting with stat
+2024-08-05 04:41:07,482 WARNING  * Debugger is active!
+2024-08-05 04:41:07,512 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:41:10,852 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 04:41:13,420 INFO Models loaded successfully
+2024-08-05 04:41:13,434 INFO (200, 150)
+2024-08-05 04:41:13,434 INFO art style
+2024-08-05 04:41:13,434 ERROR Error in faceenhance: {E}
+2024-08-05 04:41:13,436 INFO 127.0.0.1 - - [05/Aug/2024 04:41:13] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:42:36,006 INFO (200, 150)
+2024-08-05 04:42:36,007 ERROR Error in faceenhance: {E}
+2024-08-05 04:42:36,008 INFO 127.0.0.1 - - [05/Aug/2024 04:42:36] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:43:17,284 INFO (200, 150)
+2024-08-05 04:43:17,284 INFO art style
+2024-08-05 04:43:17,285 ERROR Error in faceenhance: {E}
+2024-08-05 04:43:17,286 INFO 127.0.0.1 - - [05/Aug/2024 04:43:17] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-05 04:47:33,047 INFO  * Detected change in '/home/irfan/catoonify/main.py', reloading
+2024-08-05 04:47:33,976 INFO  * Restarting with stat
+2024-08-05 04:47:36,309 WARNING  * Debugger is active!
+2024-08-05 04:47:36,328 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:48:02,931 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 04:48:05,826 INFO Models loaded successfully
+2024-08-05 04:48:05,839 INFO (200, 150)
+2024-08-05 04:48:05,839 INFO art style
+2024-08-05 04:48:05,839 INFO working in art style
+2024-08-05 04:48:05,839 INFO imageResize working: (200, 150)
+2024-08-05 04:48:05,839 INFO imageResize initial: (200, 150)
+2024-08-05 04:48:05,842 INFO imageResize: (150, 200, 3)
+2024-08-05 04:48:05,842 INFO (150, 200, 3)
+2024-08-05 04:48:10,756 INFO Cartoonified successfully
+2024-08-05 04:48:10,935 INFO 127.0.0.1 - - [05/Aug/2024 04:48:10] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-05 04:48:54,149 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-05 04:48:55,427 INFO  * Restarting with stat
+2024-08-05 04:48:58,065 WARNING  * Debugger is active!
+2024-08-05 04:48:58,092 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:49:12,246 INFO  * Detected change in '/home/irfan/catoonify/main.py', reloading
+2024-08-05 04:49:12,701 INFO  * Restarting with stat
+2024-08-05 04:49:14,880 WARNING  * Debugger is active!
+2024-08-05 04:49:14,898 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:49:52,545 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-05 04:49:55,005 INFO Models loaded successfully
+2024-08-05 04:49:55,015 INFO (200, 150)
+2024-08-05 04:49:55,015 INFO imageResize working: (200, 150)
+2024-08-05 04:49:55,016 INFO imageResize initial: (200, 150)
+2024-08-05 04:49:55,017 INFO imageResize: (150, 200, 3)
+2024-08-05 04:50:00,881 INFO Cartoonified successfully
+2024-08-05 04:50:01,054 INFO 127.0.0.1 - - [05/Aug/2024 04:50:01] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-05 04:50:04,973 INFO (200, 150)
+2024-08-05 04:50:04,974 INFO imageResize working: (200, 150)
+2024-08-05 04:50:04,974 INFO imageResize initial: (200, 150)
+2024-08-05 04:50:04,978 INFO imageResize: (150, 200, 3)
+2024-08-05 04:50:06,125 INFO Cartoonified successfully
+2024-08-05 04:50:06,287 INFO 127.0.0.1 - - [05/Aug/2024 04:50:06] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-05 04:50:20,591 INFO  * Detected change in '/home/irfan/catoonify/main.py', reloading
+2024-08-05 04:50:21,803 INFO  * Restarting with stat
+2024-08-05 04:50:24,352 WARNING  * Debugger is active!
+2024-08-05 04:50:24,376 INFO  * Debugger PIN: 104-352-935
+2024-08-05 04:51:29,958 INFO  * Detected change in '/home/irfan/catoonify/main.py', reloading
+2024-08-05 04:51:30,423 INFO  * Restarting with stat
+2024-08-05 04:51:32,645 WARNING  * Debugger is active!
+2024-08-05 04:51:32,665 INFO  * Debugger PIN: 104-352-935
