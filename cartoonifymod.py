@@ -1,5 +1,4 @@
 import cv2
-from source.cartoonize import Cartoonizer
 import os
 import tensorflow as tf
 import numpy as np
@@ -20,22 +19,13 @@ logging.basicConfig(level=logging.INFO,  # Set the desired logging level
 
 class Cartoonifier:
     def __init__(self):
-        # self.cartoonStyle = Cartoonizer(dataroot='./damo1/cv_unet_person-image-cartoon_compound-models')
-        # self.artstyle = Cartoonizer(dataroot='./damo1/cv_unet_person-image-cartoon-artstyle_compound-models')
-        # self.handdrawn = Cartoonizer(dataroot='./damo1/cv_unet_person-image-cartoon-handdrawn_compound-models')
-        # self.sketch = Cartoonizer(dataroot='./damo1/cv_unet_person-image-cartoon-sketch_compound-models')
-        # self.artstyle = pipeline(Tasks.image_portrait_stylization,
-        #                model='damo/cv_unet_person-image-cartoon_compound-models')
+       
         self.cartoonStyle = pipeline(Tasks.image_portrait_stylization,
-                       model='damo/cv_unet_person-image-cartoon-artstyle_compound-models')
-        # self.handdrawn = pipeline(Tasks.image_portrait_stylization,
-        #                model='damo/cv_unet_person-image-cartoon-handdrawn_compound-models')
+                       model='damo/cv_unet_person-image-cartoon-artstyle_compound-models')     
         self.sketch = pipeline(Tasks.image_portrait_stylization,
                        model='damo/cv_unet_person-image-cartoon-sketch_compound-models')
         self.catoon3d=pipeline(Tasks.image_portrait_stylization,"damo/cv_unet_person-image-cartoon-3d_compound-models")
-        # self.cartoonStyle = None
-        # self.handdrawn = None
-        # self.sketch = None
+       
         
     def imageResize(self,img):
         logging.info(f'imageResize working: {img.size}')
@@ -49,26 +39,14 @@ class Cartoonifier:
             img = img.resize((width, height))
             img = np.array(img)
         else:
-            logging.info(f'imageResize initial: {img.size}')
             img = img.convert("RGB")
             img = np.array(img)
-            logging.info(f'imageResize: {img.shape}')
         return img
     def cartoonify(self, img):
         img=self.imageResize(img)
         ImageFile=self.cartoonStyle(input=img)
         image=Image.fromarray(ImageFile['output_img'].astype(np.uint8))
         return image
-    # def artstyleFunc(self, img):
-    #     img=self.imageResize(img)
-    #     ImageFile=self.artstyle(input=img)
-    #     image=Image.fromarray(ImageFile['output_img'].astype(np.uint8))
-    #     return image
-    # def handdrawnFunc(self, img):
-    #     img=self.imageResize(img)
-    #     ImageFile=self.handdrawn(input=img)
-    #     image=Image.fromarray(ImageFile['output_img'].astype(np.uint8))
-    #     return image
     def sketchFunc(self, img):
         img=self.imageResize(img)
         ImageFile=self.sketch(input=img)

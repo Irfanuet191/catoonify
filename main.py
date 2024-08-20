@@ -17,7 +17,6 @@ import base64
 from PIL import Image
 import logging
 import cv2
-from source.cartoonize import Cartoonizer
 import os
 from cartoonifymod import Cartoonifier
 import tensorflow as tf  
@@ -93,10 +92,6 @@ def cartoonify():
         logging.info(f'{image.size}')
         if category == "cartoon":
             image = cartoonifier_model.cartoonify(image)
-        # elif category == "artstyle":
-        #     image = cartoonifier_model.artstyleFunc(image)
-        # elif category == "handdrawn":
-        #     image = cartoonifier_model.handdrawnFunc(image)
         elif category == "sketch":
             image = cartoonifier_model.sketchFunc(image)
         elif category == "cartoon3d":

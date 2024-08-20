@@ -821,3 +821,19 @@ Instructions for updating:
 Use `tf.config.list_physical_devices('GPU')` instead.
 2024-08-18 23:01:31,752 INFO Cartoonified successfully
 2024-08-18 23:01:31,936 INFO 127.0.0.1 - - [18/Aug/2024 23:01:31] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-19 22:25:56,735 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-19 22:26:10,798 INFO Models loaded successfully
+2024-08-19 22:26:10,806 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4949
+ * Running on http://172.24.111.242:4949
+2024-08-19 22:26:10,806 INFO [33mPress CTRL+C to quit[0m
+2024-08-19 22:26:10,807 INFO  * Restarting with stat
+2024-08-19 22:26:21,361 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-19 22:26:30,727 INFO Models loaded successfully
+2024-08-19 22:26:30,729 WARNING  * Debugger is active!
+2024-08-19 22:26:30,763 INFO  * Debugger PIN: 833-581-835
