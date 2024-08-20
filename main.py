@@ -10,6 +10,7 @@ import os
 from functools import wraps
 import time
 import io
+import requests
 import gc
 import random
 import base64
@@ -56,6 +57,9 @@ CORS(app)
 app.config['CORS_HEADERS'] = 'Content-Type'
 app.config['CORS_RESOURCES'] = {r"/*": {"origins": "*"}}
 baseDir = os.path.abspath(os.path.dirname(__file__))
+global cartoonifier_model
+cartoonifier_model = Cartoonifier()
+logging.info("Models loaded successfully")
 def before_first_request(f):
     already_run = False
 
@@ -72,8 +76,8 @@ def before_first_request(f):
 @before_first_request
 def load_model():
     try:
-        global cartoonify
-        cartoonify = Cartoonifier()
+        # global cartoonify
+        # cartoonify = Cartoonifier()
         logging.info("Models loaded successfully")
     except Exception as E:
         logging.error(f"Error in load_model : {E}")
@@ -88,22 +92,32 @@ def cartoonify():
         image = Image.open(BytesIO(base64.b64decode(image)))
         logging.info(f'{image.size}')
         if category == "cartoon":
-            image = cartoonify.cartoonify(image)
-        elif category == "artstyle":
-            image = cartoonify.artstyleFunc(image)
-        elif category == "handdrawn":
-            image = cartoonify.handdrawnFunc(image)
+            image = cartoonifier_model.cartoonify(image)
+        # elif category == "artstyle":
+        #     image = cartoonifier_model.artstyleFunc(image)
+        # elif category == "handdrawn":
+        #     image = cartoonifier_model.handdrawnFunc(image)
         elif category == "sketch":
-            image = cartoonify.sketchFunc(image)
+            image = cartoonifier_model.sketchFunc(image)
+        elif category == "cartoon3d":
+            image = cartoonifier_model.cartoon3dFunc(image)
         else:
             return jsonify({"message": "category not found"}), 400
         image = image.convert("RGB")
         buffered = BytesIO()
         image.save(buffered, format="JPEG")
         img_str = base64.b64encode(buffered.getvalue()).decode()
+        data = {
+            "image": img_str
+
+        }
+        url = "http://35.193.78.211:5000"
+        url = url + "/faceenhance"
+        r = requests.post(url, json=data, timeout=120)
+        image = r.json()['image']
         logging.info("Cartoonified successfully")
         gc.collect()
-        return jsonify({"image": img_str}), 200
+        return jsonify({"image": image}), 200
     except Exception as E:
         logging.error("failed to generate image: {E}")
         return jsonify({"message": "error something is wrong"}), 400
@@ -113,7 +127,7 @@ def initv2():
     try:
         gc.collect()
         # check if get request
-        return "http://35.193.78.211:5000"
+        return "http://35.193.78.211:4545"
     except Exception as E:
         logging.error(f"Error in initv2 : {E}")
         return jsonify({"message": "Error: " + str(E)}), 400

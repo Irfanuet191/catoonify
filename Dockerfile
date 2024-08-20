@@ -14,10 +14,13 @@ RUN pip3 install --no-cache-dir -r requirements.txt
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y --no-install-recommends \
     python3 python3-pip nginx supervisor
+RUN  pip3 install torch
+RUN pip3 install datasets
 COPY ./source /app/source
 COPY ./damo1 /app/damo1
 COPY ./input.png /app/
 COPY ./main.py /app/
+COPY ./modelscope /root/.cache/
 COPY ./cartoonifymod.py /app/
 COPY nginx.conf /etc/nginx/sites-available/default
 COPY supervisord.conf /etc/supervisor/conf.d/

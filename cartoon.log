@@ -318,3 +318,506 @@ Use tf.gfile.GFile.
 2024-08-05 04:51:30,423 INFO  * Restarting with stat
 2024-08-05 04:51:32,645 WARNING  * Debugger is active!
 2024-08-05 04:51:32,665 INFO  * Debugger PIN: 104-352-935
+2024-08-06 04:56:28,204 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4949
+ * Running on http://172.24.111.242:4949
+2024-08-06 04:56:28,205 INFO [33mPress CTRL+C to quit[0m
+2024-08-06 04:56:28,206 INFO  * Restarting with stat
+2024-08-06 04:56:30,419 WARNING  * Debugger is active!
+2024-08-06 04:56:30,440 INFO  * Debugger PIN: 104-352-935
+2024-08-06 04:57:08,586 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-06 04:57:14,889 INFO Models loaded successfully
+2024-08-06 04:57:14,929 INFO (200, 150)
+2024-08-06 04:57:14,930 INFO imageResize working: (200, 150)
+2024-08-06 04:57:14,930 INFO imageResize initial: (200, 150)
+2024-08-06 04:57:14,932 INFO imageResize: (150, 200, 3)
+2024-08-06 04:57:38,194 INFO Cartoonified successfully
+2024-08-06 04:57:38,356 INFO 127.0.0.1 - - [06/Aug/2024 04:57:38] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-06 04:59:17,720 INFO (200, 150)
+2024-08-06 04:59:17,721 INFO working in art style
+2024-08-06 04:59:17,721 INFO imageResize working: (200, 150)
+2024-08-06 04:59:17,722 INFO imageResize initial: (200, 150)
+2024-08-06 04:59:17,727 INFO imageResize: (150, 200, 3)
+2024-08-06 04:59:17,728 INFO (150, 200, 3)
+2024-08-06 04:59:20,376 INFO Cartoonified successfully
+2024-08-06 04:59:20,516 INFO 127.0.0.1 - - [06/Aug/2024 04:59:20] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-06 05:00:28,955 INFO  * Detected change in '/home/irfan/catoonify/main.py', reloading
+2024-08-06 05:00:30,391 INFO  * Restarting with stat
+2024-08-06 05:00:33,038 WARNING  * Debugger is active!
+2024-08-06 05:00:33,067 INFO  * Debugger PIN: 104-352-935
+2024-08-06 05:00:37,197 WARNING From /home/irfan/catoonify/source/cartoonize.py:36: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-06 05:00:39,705 INFO Models loaded successfully
+2024-08-06 05:00:39,725 INFO (200, 150)
+2024-08-06 05:00:39,725 INFO working in art style
+2024-08-06 05:00:39,725 INFO imageResize working: (200, 150)
+2024-08-06 05:00:39,726 INFO imageResize initial: (200, 150)
+2024-08-06 05:00:39,729 INFO imageResize: (150, 200, 3)
+2024-08-06 05:00:39,729 INFO (150, 200, 3)
+2024-08-06 05:00:45,981 INFO Cartoonified successfully
+2024-08-06 05:00:46,135 INFO 127.0.0.1 - - [06/Aug/2024 05:00:46] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-06 05:04:08,814 INFO (288, 175)
+2024-08-06 05:04:08,814 INFO working in art style
+2024-08-06 05:04:08,815 INFO imageResize working: (288, 175)
+2024-08-06 05:04:08,815 INFO imageResize initial: (288, 175)
+2024-08-06 05:04:08,816 INFO imageResize: (175, 288, 3)
+2024-08-06 05:04:08,817 INFO (175, 288, 3)
+2024-08-06 05:04:13,349 INFO Cartoonified successfully
+2024-08-06 05:04:13,488 INFO 127.0.0.1 - - [06/Aug/2024 05:04:13] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-06 05:06:26,420 INFO (1280, 720)
+2024-08-06 05:06:26,421 INFO working in art style
+2024-08-06 05:06:26,421 INFO imageResize working: (1280, 720)
+2024-08-06 05:06:26,422 INFO imageResize initial: (1280, 720)
+2024-08-06 05:06:26,435 INFO imageResize: (720, 1280, 3)
+2024-08-06 05:06:26,436 INFO (720, 1280, 3)
+2024-08-06 05:06:37,223 ERROR failed to generate image: {E}
+2024-08-06 05:06:37,224 INFO 127.0.0.1 - - [06/Aug/2024 05:06:37] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-06 05:08:12,376 INFO (1280, 720)
+2024-08-06 05:08:12,377 INFO working in art style
+2024-08-06 05:08:12,377 INFO imageResize working: (1280, 720)
+2024-08-06 05:08:12,378 INFO imageResize initial: (1280, 720)
+2024-08-06 05:08:12,398 INFO imageResize: (720, 1280, 3)
+2024-08-06 05:08:12,398 INFO (720, 1280, 3)
+2024-08-06 05:08:13,764 ERROR failed to generate image: {E}
+2024-08-06 05:08:13,765 INFO 127.0.0.1 - - [06/Aug/2024 05:08:13] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-06 05:09:34,457 INFO  * Detected change in '/home/irfan/catoonify/main.py', reloading
+2024-08-06 05:09:35,952 INFO  * Restarting with stat
+2024-08-06 05:09:38,303 WARNING  * Debugger is active!
+2024-08-06 05:09:38,321 INFO  * Debugger PIN: 104-352-935
+2024-08-06 23:21:43,733 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4949
+ * Running on http://172.24.111.242:4949
+2024-08-06 23:21:43,734 INFO [33mPress CTRL+C to quit[0m
+2024-08-06 23:21:43,735 INFO  * Restarting with stat
+2024-08-06 23:21:46,888 WARNING  * Debugger is active!
+2024-08-06 23:21:46,976 INFO  * Debugger PIN: 597-837-762
+2024-08-06 23:23:11,484 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-06 23:40:32,533 INFO Models loaded successfully
+2024-08-06 23:40:32,539 INFO (1280, 720)
+2024-08-06 23:40:32,539 INFO working in art style
+2024-08-06 23:40:32,540 INFO imageResize working: (1280, 720)
+2024-08-06 23:40:32,540 INFO imageResize initial: (1280, 720)
+2024-08-06 23:40:32,549 INFO imageResize: (720, 1280, 3)
+2024-08-06 23:40:32,549 INFO (720, 1280, 3)
+2024-08-06 23:40:32,562 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-06 23:40:34,755 ERROR failed to generate image: {E}
+2024-08-06 23:40:34,756 INFO 127.0.0.1 - - [06/Aug/2024 23:40:34] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-06 23:42:38,108 INFO  * Detected change in '/home/irfan/catoonify/main.py', reloading
+2024-08-06 23:42:39,016 INFO  * Restarting with stat
+2024-08-06 23:42:42,294 WARNING  * Debugger is active!
+2024-08-06 23:42:42,307 INFO  * Debugger PIN: 597-837-762
+2024-08-06 23:42:58,553 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-06 23:44:10,045 INFO Models loaded successfully
+2024-08-06 23:44:10,051 INFO (1280, 720)
+2024-08-06 23:44:10,051 INFO working in art style
+2024-08-06 23:44:10,051 INFO imageResize working: (1280, 720)
+2024-08-06 23:44:10,051 INFO imageResize initial: (1280, 720)
+2024-08-06 23:44:10,061 INFO imageResize: (720, 1280, 3)
+2024-08-06 23:44:10,061 INFO (720, 1280, 3)
+2024-08-06 23:44:10,073 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-06 23:44:12,269 ERROR failed to generate image: {E}
+2024-08-06 23:44:12,270 INFO 127.0.0.1 - - [06/Aug/2024 23:44:12] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-06 23:44:28,683 INFO (1280, 720)
+2024-08-06 23:44:28,684 INFO working in art style
+2024-08-06 23:44:28,684 INFO imageResize working: (1280, 720)
+2024-08-06 23:44:28,684 INFO imageResize initial: (1280, 720)
+2024-08-06 23:44:28,695 INFO imageResize: (720, 1280, 3)
+2024-08-06 23:44:28,695 INFO (720, 1280, 3)
+2024-08-06 23:44:30,320 ERROR failed to generate image: {E}
+2024-08-06 23:44:30,321 INFO 127.0.0.1 - - [06/Aug/2024 23:44:30] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-06 23:47:37,047 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-06 23:47:37,896 INFO  * Restarting with stat
+2024-08-06 23:47:41,474 WARNING  * Debugger is active!
+2024-08-06 23:47:41,499 INFO  * Debugger PIN: 597-837-762
+2024-08-06 23:48:15,440 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-06 23:48:15,568 INFO Models loaded successfully
+2024-08-06 23:48:15,580 INFO (1280, 720)
+2024-08-06 23:48:15,581 INFO working in art style
+2024-08-06 23:48:15,581 INFO imageResize working: (1280, 720)
+2024-08-06 23:48:15,581 INFO imageResize initial: (1280, 720)
+2024-08-06 23:48:15,597 INFO imageResize: (720, 1280, 3)
+2024-08-06 23:48:15,597 INFO (720, 1280, 3)
+2024-08-06 23:48:15,613 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-06 23:48:17,687 ERROR failed to generate image: {E}
+2024-08-06 23:48:17,687 INFO 127.0.0.1 - - [06/Aug/2024 23:48:17] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-06 23:50:01,721 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-06 23:50:02,450 INFO  * Restarting with stat
+2024-08-06 23:50:06,361 WARNING  * Debugger is active!
+2024-08-06 23:50:06,379 INFO  * Debugger PIN: 597-837-762
+2024-08-06 23:50:41,526 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-06 23:50:41,633 INFO Models loaded successfully
+2024-08-06 23:50:41,638 INFO (1280, 720)
+2024-08-06 23:50:41,638 INFO working in art style
+2024-08-06 23:50:41,638 INFO imageResize working: (1280, 720)
+2024-08-06 23:50:41,638 INFO imageResize initial: (1280, 720)
+2024-08-06 23:50:41,648 INFO imageResize: (720, 1280, 3)
+2024-08-06 23:50:41,659 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-06 23:50:43,794 ERROR failed to generate image: {E}
+2024-08-06 23:50:43,795 INFO 127.0.0.1 - - [06/Aug/2024 23:50:43] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-06 23:50:59,882 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-06 23:51:00,714 INFO  * Restarting with stat
+2024-08-06 23:51:04,536 WARNING  * Debugger is active!
+2024-08-06 23:51:04,568 INFO  * Debugger PIN: 597-837-762
+2024-08-06 23:51:14,384 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-06 23:51:14,498 INFO Models loaded successfully
+2024-08-06 23:51:14,503 INFO (1280, 720)
+2024-08-06 23:51:14,504 INFO working in art style
+2024-08-06 23:51:14,504 INFO imageResize working: (1280, 720)
+2024-08-06 23:51:14,504 INFO imageResize initial: (1280, 720)
+2024-08-06 23:51:14,516 INFO imageResize: (720, 1280, 3)
+2024-08-06 23:51:14,531 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-06 23:51:16,660 INFO artstyle: (720, 1280, 3)
+2024-08-06 23:51:16,660 ERROR failed to generate image: {E}
+2024-08-06 23:51:16,661 INFO 127.0.0.1 - - [06/Aug/2024 23:51:16] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-06 23:53:16,828 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-06 23:53:17,644 INFO  * Restarting with stat
+2024-08-06 23:53:21,538 WARNING  * Debugger is active!
+2024-08-06 23:53:21,571 INFO  * Debugger PIN: 597-837-762
+2024-08-06 23:53:36,806 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-06 23:53:36,923 INFO Models loaded successfully
+2024-08-06 23:53:36,929 INFO (1280, 720)
+2024-08-06 23:53:36,929 INFO working in art style
+2024-08-06 23:53:36,929 INFO imageResize working: (1280, 720)
+2024-08-06 23:53:36,929 INFO imageResize initial: (1280, 720)
+2024-08-06 23:53:36,937 INFO imageResize: (720, 1280, 3)
+2024-08-06 23:53:36,950 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-06 23:53:39,127 INFO artstyle: (720, 1280, 3)
+2024-08-06 23:53:39,127 ERROR failed to generate image: {E}
+2024-08-06 23:53:39,128 INFO 127.0.0.1 - - [06/Aug/2024 23:53:39] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-06 23:54:00,933 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-06 23:54:01,799 INFO  * Restarting with stat
+2024-08-06 23:54:05,463 WARNING  * Debugger is active!
+2024-08-06 23:54:05,493 INFO  * Debugger PIN: 597-837-762
+2024-08-06 23:54:17,347 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-06 23:54:17,461 INFO Models loaded successfully
+2024-08-06 23:54:17,467 INFO (1280, 720)
+2024-08-06 23:54:17,468 INFO working in art style
+2024-08-06 23:54:17,468 INFO imageResize working: (1280, 720)
+2024-08-06 23:54:17,468 INFO imageResize initial: (1280, 720)
+2024-08-06 23:54:17,475 INFO imageResize: (720, 1280, 3)
+2024-08-06 23:54:17,487 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-06 23:54:19,629 INFO artstyle before that: (720, 1280, 3)
+2024-08-06 23:54:19,629 ERROR failed to generate image: {E}
+2024-08-06 23:54:19,630 INFO 127.0.0.1 - - [06/Aug/2024 23:54:19] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-06 23:54:58,051 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-06 23:54:58,898 INFO  * Restarting with stat
+2024-08-06 23:55:02,650 WARNING  * Debugger is active!
+2024-08-06 23:55:02,668 INFO  * Debugger PIN: 597-837-762
+2024-08-06 23:55:43,930 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-06 23:55:44,068 INFO Models loaded successfully
+2024-08-06 23:55:44,074 INFO (1280, 720)
+2024-08-06 23:55:44,074 INFO working in art style
+2024-08-06 23:55:44,074 INFO imageResize working: (1280, 720)
+2024-08-06 23:55:44,074 INFO imageResize initial: (1280, 720)
+2024-08-06 23:55:44,086 INFO imageResize: (720, 1280, 3)
+2024-08-06 23:55:44,101 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-06 23:55:46,737 INFO artstyle before that: (720, 1280, 3)
+2024-08-06 23:55:46,783 ERROR failed to generate image: {E}
+2024-08-06 23:55:46,784 INFO 127.0.0.1 - - [06/Aug/2024 23:55:46] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-06 23:58:27,585 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-06 23:58:28,285 INFO  * Restarting with stat
+2024-08-06 23:58:32,050 WARNING  * Debugger is active!
+2024-08-06 23:58:32,069 INFO  * Debugger PIN: 597-837-762
+2024-08-06 23:58:45,658 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-06 23:58:45,773 INFO Models loaded successfully
+2024-08-06 23:58:45,780 INFO (1280, 720)
+2024-08-06 23:58:45,780 INFO working in art style
+2024-08-06 23:58:45,780 INFO imageResize working: (1280, 720)
+2024-08-06 23:58:45,780 INFO imageResize initial: (1280, 720)
+2024-08-06 23:58:45,789 INFO imageResize: (720, 1280, 3)
+2024-08-06 23:58:45,803 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-06 23:58:48,129 INFO artstyle before that: (720, 1280, 3)
+2024-08-06 23:58:48,173 ERROR failed to generate image: {E}
+2024-08-06 23:58:48,174 INFO 127.0.0.1 - - [06/Aug/2024 23:58:48] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-07 00:00:19,035 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-07 00:00:19,886 INFO  * Restarting with stat
+2024-08-07 00:00:23,965 WARNING  * Debugger is active!
+2024-08-07 00:00:23,988 INFO  * Debugger PIN: 597-837-762
+2024-08-07 00:01:06,202 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-07 00:01:06,308 INFO Models loaded successfully
+2024-08-07 00:01:06,314 INFO (1280, 720)
+2024-08-07 00:01:06,314 INFO working in art style
+2024-08-07 00:01:06,315 INFO imageResize working: (1280, 720)
+2024-08-07 00:01:06,315 INFO imageResize initial: (1280, 720)
+2024-08-07 00:01:06,325 INFO imageResize: (720, 1280, 3)
+2024-08-07 00:01:06,338 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-07 00:01:08,415 INFO artstyle before that: (720, 1280, 3)
+2024-08-07 00:01:08,458 ERROR failed to generate image: {E}
+2024-08-07 00:01:08,459 INFO 127.0.0.1 - - [07/Aug/2024 00:01:08] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-07 00:02:01,873 INFO  * Detected change in '/home/irfan/catoonify/run.py', reloading
+2024-08-07 00:02:02,564 INFO  * Restarting with stat
+2024-08-07 00:10:44,461 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4949
+ * Running on http://172.24.111.242:4949
+2024-08-07 00:10:44,461 INFO [33mPress CTRL+C to quit[0m
+2024-08-07 00:10:44,462 INFO  * Restarting with stat
+2024-08-07 00:10:48,176 WARNING  * Debugger is active!
+2024-08-07 00:10:48,196 INFO  * Debugger PIN: 597-837-762
+2024-08-07 00:11:05,443 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-07 00:11:05,561 INFO Models loaded successfully
+2024-08-07 00:11:05,566 INFO (1280, 720)
+2024-08-07 00:11:05,566 INFO working in art style
+2024-08-07 00:11:05,566 INFO imageResize working: (1280, 720)
+2024-08-07 00:11:05,567 INFO imageResize initial: (1280, 720)
+2024-08-07 00:11:05,578 INFO imageResize: (720, 1280, 3)
+2024-08-07 00:11:05,592 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-07 00:11:07,874 INFO artstyle before that: (720, 1280, 3)
+2024-08-07 00:11:07,876 INFO artstyle after PIL: (1280, 720)
+2024-08-07 00:11:07,881 INFO Cartoonified successfully
+2024-08-07 00:11:07,993 INFO 127.0.0.1 - - [07/Aug/2024 00:11:07] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-07 00:14:52,335 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-07 00:14:53,000 INFO  * Restarting with stat
+2024-08-07 00:14:56,707 WARNING  * Debugger is active!
+2024-08-07 00:14:56,721 INFO  * Debugger PIN: 597-837-762
+2024-08-07 00:15:05,841 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-07 00:15:06,533 INFO  * Restarting with stat
+2024-08-07 00:15:10,252 WARNING  * Debugger is active!
+2024-08-07 00:15:10,267 INFO  * Debugger PIN: 597-837-762
+2024-08-07 00:15:31,242 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-07 00:16:04,184 WARNING Retrying (Retry(total=1, connect=2, read=2, redirect=None, status=None)) after connection broken by 'SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1135)'))': /api/v1/models/damo/cv_unet_person-image-cartoon-artstyle_compound-models
+2024-08-07 00:16:39,334 WARNING Retrying (Retry(total=0, connect=2, read=1, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api/v1/models/damo/cv_unet_person-image-cartoon-artstyle_compound-models
+2024-08-07 00:17:58,601 WARNING Retrying (Retry(total=1, connect=2, read=1, redirect=None, status=None)) after connection broken by 'ConnectionResetError(104, 'Connection reset by peer')': /api/v1/models/damo/cv_unet_person-image-cartoon-sketch_compound-models
+2024-08-07 00:18:19,410 INFO Models loaded successfully
+2024-08-07 00:18:19,416 INFO (1280, 720)
+2024-08-07 00:18:19,416 INFO imageResize working: (1280, 720)
+2024-08-07 00:18:19,416 INFO imageResize initial: (1280, 720)
+2024-08-07 00:18:19,428 INFO imageResize: (720, 1280, 3)
+2024-08-07 00:18:19,440 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-07 00:18:21,573 INFO Cartoonified successfully
+2024-08-07 00:18:21,704 INFO 127.0.0.1 - - [07/Aug/2024 00:18:21] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-07 00:18:39,974 INFO (1280, 720)
+2024-08-07 00:18:39,974 INFO imageResize working: (1280, 720)
+2024-08-07 00:18:39,975 INFO imageResize initial: (1280, 720)
+2024-08-07 00:18:39,981 INFO imageResize: (720, 1280, 3)
+2024-08-07 00:18:42,440 INFO Cartoonified successfully
+2024-08-07 00:18:42,596 INFO 127.0.0.1 - - [07/Aug/2024 00:18:42] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-07 00:19:46,961 INFO (1280, 720)
+2024-08-07 00:19:46,961 INFO imageResize working: (1280, 720)
+2024-08-07 00:19:46,961 INFO imageResize initial: (1280, 720)
+2024-08-07 00:19:46,968 INFO imageResize: (720, 1280, 3)
+2024-08-07 00:19:48,485 INFO Cartoonified successfully
+2024-08-07 00:19:48,626 INFO 127.0.0.1 - - [07/Aug/2024 00:19:48] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-07 00:20:36,030 INFO (1280, 720)
+2024-08-07 00:20:36,030 INFO imageResize working: (1280, 720)
+2024-08-07 00:20:36,031 INFO imageResize initial: (1280, 720)
+2024-08-07 00:20:36,039 INFO imageResize: (720, 1280, 3)
+2024-08-07 00:20:38,397 INFO Cartoonified successfully
+2024-08-07 00:20:38,543 INFO 127.0.0.1 - - [07/Aug/2024 00:20:38] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-07 00:22:06,466 INFO  * Detected change in '/home/irfan/catoonify/cartoonifymod.py', reloading
+2024-08-07 00:22:07,447 INFO  * Restarting with stat
+2024-08-07 00:22:10,902 WARNING  * Debugger is active!
+2024-08-07 00:22:10,921 INFO  * Debugger PIN: 597-837-762
+2024-08-07 00:22:57,467 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-07 00:24:23,466 WARNING Retrying (Retry(total=1, connect=2, read=2, redirect=None, status=None)) after connection broken by 'SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1135)'))': /api/v1/models/damo/cv_unet_person-image-cartoon-handdrawn_compound-models/revisions
+2024-08-07 00:24:56,368 INFO Models loaded successfully
+2024-08-07 00:24:56,378 INFO (1280, 720)
+2024-08-07 00:24:56,378 INFO imageResize working: (1280, 720)
+2024-08-07 00:24:56,378 INFO imageResize initial: (1280, 720)
+2024-08-07 00:24:56,386 INFO imageResize: (720, 1280, 3)
+2024-08-07 00:24:56,401 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-07 00:24:58,822 INFO Cartoonified successfully
+2024-08-07 00:24:58,987 INFO 127.0.0.1 - - [07/Aug/2024 00:24:58] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-08 11:41:08,117 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-08 11:41:23,554 INFO Models loaded successfully
+2024-08-08 11:41:23,713 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4949
+ * Running on http://172.24.111.242:4949
+2024-08-08 11:41:23,713 INFO [33mPress CTRL+C to quit[0m
+2024-08-08 11:41:23,725 INFO  * Restarting with stat
+2024-08-08 11:41:43,959 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-08 11:42:04,101 INFO Models loaded successfully
+2024-08-08 11:42:04,208 WARNING  * Debugger is active!
+2024-08-08 11:42:04,786 INFO  * Debugger PIN: 129-957-495
+2024-08-08 11:42:04,989 INFO Models loaded successfully
+2024-08-08 11:42:05,084 INFO (1280, 720)
+2024-08-08 11:42:05,084 ERROR failed to generate image: {E}
+2024-08-08 11:42:05,095 INFO 127.0.0.1 - - [08/Aug/2024 11:42:05] "[31m[1mPOST /cartoonify HTTP/1.1[0m" 400 -
+2024-08-08 11:43:49,246 INFO  * Detected change in '/home/irfan/catoonify/main.py', reloading
+2024-08-08 11:44:06,245 INFO  * Restarting with stat
+2024-08-08 11:44:43,673 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-08 11:45:06,936 INFO Models loaded successfully
+2024-08-08 11:45:06,957 WARNING  * Debugger is active!
+2024-08-08 11:45:07,030 INFO  * Debugger PIN: 129-957-495
+2024-08-08 11:45:30,869 INFO Models loaded successfully
+2024-08-08 11:45:31,123 INFO (1280, 720)
+2024-08-08 11:45:31,124 INFO imageResize working: (1280, 720)
+2024-08-08 11:45:31,124 INFO imageResize initial: (1280, 720)
+2024-08-08 11:45:31,288 INFO imageResize: (720, 1280, 3)
+2024-08-08 11:45:32,779 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-08 11:46:08,206 INFO Cartoonified successfully
+2024-08-08 11:46:08,469 INFO 127.0.0.1 - - [08/Aug/2024 11:46:08] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-11 22:14:32,104 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-11 22:15:21,299 INFO Models loaded successfully
+2024-08-11 22:15:21,309 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4949
+ * Running on http://172.24.111.242:4949
+2024-08-11 22:15:21,309 INFO [33mPress CTRL+C to quit[0m
+2024-08-11 22:15:21,311 INFO  * Restarting with stat
+2024-08-11 22:16:38,625 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-11 22:17:10,287 INFO Models loaded successfully
+2024-08-11 22:17:10,291 WARNING  * Debugger is active!
+2024-08-11 22:17:10,517 INFO  * Debugger PIN: 363-848-218
+2024-08-11 22:17:10,539 INFO Models loaded successfully
+2024-08-11 22:17:10,625 INFO (1280, 720)
+2024-08-11 22:17:10,626 INFO imageResize working: (1280, 720)
+2024-08-11 22:17:10,626 INFO imageResize initial: (1280, 720)
+2024-08-11 22:17:10,667 INFO imageResize: (720, 1280, 3)
+2024-08-11 22:17:10,684 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-11 22:17:33,187 INFO Cartoonified successfully
+2024-08-11 22:17:33,356 INFO 127.0.0.1 - - [11/Aug/2024 22:17:33] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-13 01:05:46,102 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-13 01:06:44,963 INFO Models loaded successfully
+2024-08-13 01:06:44,971 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4949
+ * Running on http://172.24.111.242:4949
+2024-08-13 01:06:44,971 INFO [33mPress CTRL+C to quit[0m
+2024-08-13 01:06:44,974 INFO  * Restarting with stat
+2024-08-13 01:07:07,190 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-13 01:07:48,934 WARNING Retrying (Retry(total=1, connect=2, read=2, redirect=None, status=None)) after connection broken by 'SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1135)'))': /api/v1/models/damo/cv_unet_person-image-cartoon-artstyle_compound-models/revisions
+2024-08-13 01:10:24,908 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-13 01:12:11,080 WARNING Retrying (Retry(total=1, connect=2, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.modelscope.cn', port=443): Read timed out. (read timeout=60)")': /api/v1/models/damo/cv_unet_person-image-cartoon-handdrawn_compound-models
+2024-08-13 01:12:46,894 WARNING Retrying (Retry(total=0, connect=2, read=0, redirect=None, status=None)) after connection broken by 'RemoteDisconnected('Remote end closed connection without response')': /api/v1/models/damo/cv_unet_person-image-cartoon-handdrawn_compound-models
+2024-08-13 01:14:00,985 WARNING Retrying (Retry(total=1, connect=2, read=2, redirect=None, status=None)) after connection broken by 'SSLError(SSLZeroReturnError(6, 'TLS/SSL connection has been closed (EOF) (_ssl.c:1135)'))': /api/v1/models/damo/cv_unet_person-image-cartoon-3d_compound-models/revisions
+2024-08-13 01:14:09,149 INFO Models loaded successfully
+2024-08-13 01:14:09,157 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4949
+ * Running on http://172.24.111.242:4949
+2024-08-13 01:14:09,158 INFO [33mPress CTRL+C to quit[0m
+2024-08-13 01:14:09,159 INFO  * Restarting with stat
+2024-08-13 01:15:36,645 WARNING Retrying (Retry(total=1, connect=2, read=1, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPSConnectionPool(host='www.modelscope.cn', port=443): Read timed out. (read timeout=60)")': /api/v1/models/damo/cv_unet_person-image-cartoon_compound-models/repo/files?Revision=v1.0.3&Recursive=True
+2024-08-13 01:15:42,540 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-13 01:17:33,754 INFO Models loaded successfully
+2024-08-13 01:17:33,759 WARNING  * Debugger is active!
+2024-08-13 01:17:34,686 INFO  * Debugger PIN: 377-830-104
+2024-08-13 01:17:34,710 INFO Models loaded successfully
+2024-08-13 01:17:34,787 INFO (1280, 720)
+2024-08-13 01:17:34,787 INFO imageResize working: (1280, 720)
+2024-08-13 01:17:34,787 INFO imageResize initial: (1280, 720)
+2024-08-13 01:17:34,817 INFO imageResize: (720, 1280, 3)
+2024-08-13 01:17:34,876 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-13 01:17:54,876 INFO Cartoonified successfully
+2024-08-13 01:17:55,055 INFO 127.0.0.1 - - [13/Aug/2024 01:17:55] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-13 01:18:03,122 INFO (1280, 720)
+2024-08-13 01:18:03,122 INFO imageResize working: (1280, 720)
+2024-08-13 01:18:03,122 INFO imageResize initial: (1280, 720)
+2024-08-13 01:18:03,131 INFO imageResize: (720, 1280, 3)
+2024-08-13 01:18:04,484 INFO Cartoonified successfully
+2024-08-13 01:18:04,640 INFO 127.0.0.1 - - [13/Aug/2024 01:18:04] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-13 01:18:17,524 INFO (1280, 720)
+2024-08-13 01:18:17,525 INFO imageResize working: (1280, 720)
+2024-08-13 01:18:17,525 INFO imageResize initial: (1280, 720)
+2024-08-13 01:18:17,551 INFO imageResize: (720, 1280, 3)
+2024-08-13 01:18:18,929 INFO Cartoonified successfully
+2024-08-13 01:18:19,171 INFO 127.0.0.1 - - [13/Aug/2024 01:18:19] "POST /cartoonify HTTP/1.1" 200 -
+2024-08-18 22:58:33,372 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-18 22:58:44,721 INFO Models loaded successfully
+2024-08-18 22:58:44,727 INFO [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:4949
+ * Running on http://172.24.111.242:4949
+2024-08-18 22:58:44,727 INFO [33mPress CTRL+C to quit[0m
+2024-08-18 22:58:44,728 INFO  * Restarting with stat
+2024-08-18 22:58:54,978 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/pipelines/cv/image_cartoon_pipeline.py:62: FastGFile.__init__ (from tensorflow.python.platform.gfile) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.gfile.GFile.
+2024-08-18 22:59:06,523 INFO Models loaded successfully
+2024-08-18 22:59:06,526 WARNING  * Debugger is active!
+2024-08-18 22:59:06,663 INFO  * Debugger PIN: 833-581-835
+2024-08-18 23:01:10,680 INFO Models loaded successfully
+2024-08-18 23:01:10,742 INFO (1280, 720)
+2024-08-18 23:01:10,742 INFO imageResize working: (1280, 720)
+2024-08-18 23:01:10,742 INFO imageResize initial: (1280, 720)
+2024-08-18 23:01:10,758 INFO imageResize: (720, 1280, 3)
+2024-08-18 23:01:10,772 WARNING From /home/irfan/miniconda3/envs/tf_gpu/lib/python3.8/site-packages/modelscope/utils/device.py:60: is_gpu_available (from tensorflow.python.framework.test_util) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.config.list_physical_devices('GPU')` instead.
+2024-08-18 23:01:31,752 INFO Cartoonified successfully
+2024-08-18 23:01:31,936 INFO 127.0.0.1 - - [18/Aug/2024 23:01:31] "POST /cartoonify HTTP/1.1" 200 -

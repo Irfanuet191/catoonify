@@ -1,2 +1,8 @@
 /damo
 /damo1
+/modelscope
+/__pycache__
+*.pyc
+*png
+*jpg
+*JPG
